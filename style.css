@@ -8,12 +8,13 @@ body {
 .section-one {
     flex: 1;
     background-color: #1F2937;
-    padding: 20px 200px;
+    padding: 15px 200px;
 }
 
 .header {
     display: flex;
-    margin-bottom: 60px;
+    flex: 1;
+    align-items: center;
 }
 
 .logo {
@@ -26,15 +27,18 @@ ul {
     flex: 1;
     justify-content: flex-end;
     align-items: center;
+    gap: 30px;
     font-size: 18px;
     color: #e5e7eb;
     list-style-type: none;
-    gap: 30px;
+    padding: 0;
+    margin: 0;
 }
 
 .hero {
     display: flex;
     justify-content: space-between;
+    padding: 80px 0;
 }
 
 .hero-contain {
@@ -72,11 +76,42 @@ button {
 }
 
 /* SECTION TWO */
+.section-two {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .random {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin: 30px 0;
 }
+
+.images {
+    display: flex;
+    gap: 25px;
+}
+
+.image-info {
+    width: 145px;
+}
+
+/* .image-two {
+    width: 145px;
+}
+
+.image-three {
+    width: 145px;
+}
+
+.image-four {
+    width: 145px;
+} */
 
 /* SECTION THREE */
 .section-three {
