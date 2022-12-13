@@ -148,9 +148,30 @@ button {
 }
 
 /* SECTION FOUR */
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 75px 0;
+}
+
 .container {
+    display: flex;
     color: #e5e7eb;
     background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 8px;
+}
+
+.callsign {
+    display: flex;
+    flex-direction: column;
+    margin: 0 100px;
+}
+
+.call {
+    font-weight: bolder;
+    padding: 3px 0;
 }
 
 .container > button {
@@ -164,5 +185,5 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 25px 0;
+    padding: 35px 0;
 }
